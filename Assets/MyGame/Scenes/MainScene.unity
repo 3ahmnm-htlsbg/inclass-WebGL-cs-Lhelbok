@@ -523,7 +523,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 929735060}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1567627583}
+        m_MethodName: MoveTheBall
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &929735060
@@ -652,10 +663,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619ab74d086253b40828a1548738a13a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPosTopLeft: {fileID: 1413213655}
-  ballPosTopRight: {fileID: 706306379}
-  ballPosBottomLeft: {fileID: 342103493}
-  ballPosBottomRight: {fileID: 1236592194}
+  ballPositions:
+  - {fileID: 706306379}
+  - {fileID: 1236592194}
+  - {fileID: 1413213655}
+  - {fileID: 342103493}
+  ball: {fileID: 886629123}
 --- !u!4 &1567627584
 Transform:
   m_ObjectHideFlags: 0
