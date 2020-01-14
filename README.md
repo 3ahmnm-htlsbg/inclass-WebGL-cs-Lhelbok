@@ -22,19 +22,6 @@ You can find the hosted game on: https://3ahmnm-htlsbg.github.io/home-WebGL-movi
 
 WebGL 960x600
 
-### Visuals: 
-
-#### Initialized Program
-
-<div>
-<img src = "./Screenshots/home-WebGL-movingBall-cs-Lhelbok_Initialized.png" width = "500">
-</div>
-
-#### Executed Program
-
-<div>
-<img src = "./Screenshots/home-WebGL-movingBall-cs-Lhelbok_Executed.png" width = "500">
-</div>
 
 ### Necessary setup/execution steps: 
 
