@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MoveBall : MonoBehaviour
 {
+    public GameObject ballPosTopLeft;
+    public GameObject ballPosTopRight;
+    public GameObject ballPosBottomLeft;
+    public GameObject ballPosBottomRight;
+
     // Start is called before the first frame update
     void Start()
     {
