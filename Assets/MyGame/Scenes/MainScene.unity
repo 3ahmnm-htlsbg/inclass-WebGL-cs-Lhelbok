@@ -427,7 +427,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b1e0a5293bde2be4bb8f1e1fe5f95b10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a68da22ba57fb7469c6bdb8a214c581, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -489,7 +489,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -3.6773224}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 210.5, y: 39.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929735059
 MonoBehaviour:
@@ -721,8 +721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 123.01}
-  m_SizeDelta: {x: 256.1, y: 48}
+  m_AnchoredPosition: {x: 0, y: 123.009995}
+  m_SizeDelta: {x: 416.5, y: 78.072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952732942
 MonoBehaviour:
@@ -757,7 +757,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Test
+  m_Text: 'Testin WebGL
+
+    Lhelbok'
 --- !u!222 &1952732943
 CanvasRenderer:
   m_ObjectHideFlags: 0
